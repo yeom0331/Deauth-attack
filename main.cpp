@@ -56,6 +56,6 @@ int main(int argc, char* argv[])
         if (res != 0) {
             fprintf(stderr, "pcap_sendpacket return %d error=%s\n", res, pcap_geterr(handle));
         }
-        usleep(100);
+        usleep(1);
     }
 }
